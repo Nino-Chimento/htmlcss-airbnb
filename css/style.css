@@ -10,11 +10,12 @@
 }
 
 .nav {
-  position: fixed;
+  /* position: fixed;
   top:0;
-  left:0;
+  left:0; */
   height: 70px;
   width:  100%;
+  background-color: silver;
 }
 
 img {
@@ -22,11 +23,15 @@ img {
 }
 
 ul {
-
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   list-style: none;
   line-height: 70px;
   text-align: center;
   background-color: silver;
+  z-index: 1
 }
 ul.menu a {
   text-decoration: none;
