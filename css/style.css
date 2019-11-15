@@ -33,6 +33,10 @@ ul {
   background-color: silver;
   z-index: 1
 }
+ul.menu li:hover{
+border-bottom: 2px solid green;
+background-color: red;
+}
 ul.menu a {
   text-decoration: none;
 }
