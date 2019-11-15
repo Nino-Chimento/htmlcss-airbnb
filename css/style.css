@@ -5,14 +5,39 @@
 }
 .container {
   width: 50%;
-  
   padding: 10px;
   margin: auto;
 }
+.nav {
+  background-color: green;
+}
+
 
 img {
-  width: : 30px;
+  width: 70px;
 }
+ul {
+  list-style: none;
+
+  background-color: silver;
+}
+ul.menu a {
+  text-decoration: none;
+}
+
+li {
+  display: inline-block;
+  width: 90px;
+  padding: 10px;
+  vertical-align: middle;
+  text-align: center;
+  color: blue;
+}
+
+
+
+
+
 .city {
   position: relative;
   background-image:url(../img/palermo-1.jpg);
@@ -40,6 +65,7 @@ img {
 .city:hover .opacity{
   background: rgba(0,0,0,0)
 }
+
 .name {
   display: inline-block;
   position: absolute;
