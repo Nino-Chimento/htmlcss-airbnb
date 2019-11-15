@@ -88,3 +88,6 @@ li {
 p {
   text-shadow:   2px  2px 4px black;
 }
+.city:hover p {
+  text-shadow: 0px 0px 0px white;
+}
