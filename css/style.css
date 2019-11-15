@@ -14,8 +14,13 @@
   padding: 10px;
   margin: 5px;
 }
+
 .tokyo {
   background-image: url(../img/Centro-di-tokyo-cosa-fare-e-vedere-0.jpg);
+}
+.newyork{
+  background-image: url(../img/i-parchi-di-new-york_fotor_fotor-min-1.jpg);
+  background-size: cover;
 }
 .opacity {
   width: 100%;
