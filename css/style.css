@@ -8,31 +8,40 @@
   padding: 10px;
   margin: auto;
 }
-.nav {
-  background-color: green;
-}
 
+.nav {
+  height: 70px;
+  width:  100%;
+}
 
 img {
   width: 70px;
 }
+
 ul {
   list-style: none;
-
+  line-height: 70px;
+  text-align: center;
   background-color: silver;
 }
 ul.menu a {
   text-decoration: none;
 }
-
+ul.menu li.active {
+  border-bottom: 2px solid green;
+}
 li {
   display: inline-block;
-  width: 90px;
   padding: 10px;
-  vertical-align: middle;
-  text-align: center;
   color: blue;
 }
+
+
+
+
+
+
+
 
 
 
