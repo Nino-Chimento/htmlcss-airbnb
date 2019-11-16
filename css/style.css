@@ -106,3 +106,9 @@ p {
 .city:hover p {
   text-shadow: 0px 0px 0px white;
 }
+footer {
+  height: 8%;
+  width: large 100%;
+  background-color: red;
+  color: white;
+}
